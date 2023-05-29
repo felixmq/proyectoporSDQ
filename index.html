@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="txt">Tarea de figuras geometricas</h1>
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Triangulo</h5>
+              <h6>Cual es el perimetro ?</h6>
+              <input id="perimerT" type="number">
+              <h6>Cual es el base ?</h6>
+              <input id="baseT" type="number">
+              <h6>Cual es el altura ?</h6>
+              <input id="alturaT" type="number">
+              <h6> El resultado es:<span id="resultado"></span></h6>
+              <button onclick="triangulo()" class="btn btn-primary" type="button">Button</button>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cuadrado</h5>
+              <h6>Cual es el perimetro ?</h6>
+              <input id="cuadradoP" type="number">
+              <h6>Cual es el area ?</h6>
+              <input id="cuadradoA" type="number">
+              <h6> El resultado es:<span id="resultado1"></span></h6>
+              <button onclick="cuadrado()" class="btn btn-primary" type="button">Button</button>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rectangulo</h5>
+              <h6>Cual es el perimetro ?</h6>
+              <input id="rectanguloP" type="number">
+              <h6>Cual es el area ?</h6>
+              <input id="rectanguloA" type="number">
+              <h6> El resultado es:<span id="resultado4"></span></h6>
+              <button onclick="rectangulo()" class="btn btn-primary" type="button">Button</button>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Circulo</h5>
+              <h6>Cual es el perimetro ?</h6>
+              <input id="CirculoP" type="number">
+              <h6>Cual es el area ?</h6>
+              <input id="circuloA" type="number">
+              <h6> El resultado es:<span id="resultado2"></span></h6>
+              <button onclick="circulo()" class="btn btn-primary" type="button">Button</button>
+            </div>
+          </div>
+          </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
